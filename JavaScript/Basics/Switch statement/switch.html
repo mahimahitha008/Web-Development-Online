@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Switch Statements in JavaScript</title>
+    </head>
+    <body>
+        <h3 id="Performance"></h3>
+        <script type="text/javascript">
+            var score=70
+            var result;
+            switch (score) {
+                case 80:
+                    result="Excellent";
+                    break;
+                case 50:
+                    result="Good";
+                    break;
+                case 30:
+                    result="Need to Improve";
+                    break;
+                default:
+                    result="Result Unknown";
+                    break;
+            }
+            document.getElementById("Performance").innerHTML=result;
+
+        </script>
+    </body>
+</html>
